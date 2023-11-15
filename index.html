@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="./video/Honkai_ Star Rail Login OST [Extended Version].mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    <!-- Calculator UI -->
+    <div class="content">
+        
+    </div>
+    <div class="calculator-container">
+        <input type="text" id="calculator-monitor" disabled>
+        <div class="calc-button" id="1"onclick="appendToMonitor('1')">1</div>
+        <div class="calc-button" id="2"onclick="appendToMonitor('2')">2</div>
+        <div class="calc-button" id="3" onclick="appendToMonitor('3')">3</div>
+        <div class="calc-button" id="DEL"onclick="clearMonitor()">DEL</div>
+        <div class="calc-button" id="4" onclick="appendToMonitor('4')">4</div>  
+        <div class="calc-button" id="5"onclick="appendToMonitor('5')">5</div>
+        <div class="calc-button" id="6"onclick="appendToMonitor('6')">6</div>
+        <div class="calc-button" id="+"onclick="appendToMonitor('+')">+</div>
+        <div class="calc-button" id="7"onclick="appendToMonitor('7')">7</div>
+        <div class="calc-button" id="8"onclick="appendToMonitor('8')">8</div>
+        <div class="calc-button" id="9"onclick="appendToMonitor('9')">9</div>
+        <div class="calc-button" id="-" onclick="appendToMonitor('-')">-</div>
+        <div class="calc-button" id="."onclick="appendToMonitor('.')">,</div>
+        <div class="calc-button" id="0"onclick="appendToMonitor('0')">0</div>
+        <div class="calc-button" id="/"onclick="appendToMonitor('/')">/</div>
+        <div class="calc-button" id="="onclick="calculate()">=</div>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
